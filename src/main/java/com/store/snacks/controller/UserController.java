@@ -28,13 +28,14 @@ public class UserController {
         new User().deleteById(id);
     }
     @PostMapping("/list")
-    @ApiOperation(value = "查询用户列表", notes = "查询条件为用户的信息，传我啥我用啥匹配")
+    @ApiOperation(value = "查询用户列表", notes = "查询条件为用户的信息，传我啥我用啥匹配,不传查全部")
     public List<User> list(@RequestBody User u) {
         return u.selectList(new QueryWrapper<User>(u));
     }
-    @GetMapping("/detail/{id}")
-    @ApiOperation(value = "查询用户详细信息", notes = "url传id")
-    public User detail(@PathVariable Integer id) {
-        return new User().selectById(id);
+    @GetMapping("/detail")
+    @ApiOperation(value = "查询用户详细信息(登陆)", notes = "传用户的任何字段都可以查找，登陆可以传用户名和密码进行匹配")
+    public User detail(@RequestBody User u) {
+        return new User().selectOne(new QueryWrapper<User>(u));
     }
+
 }

@@ -14,7 +14,12 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class Order extends Model<Order> {
     private Integer id;
-
+    private String ocode;
+    private String oname;
+    private Integer userid;
+    private Integer snackid;
+    private Integer currentPage;
+    private Integer pageSize;
 
     @Override
     protected Serializable pkVal() {

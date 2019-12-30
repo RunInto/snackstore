@@ -36,4 +36,9 @@ public class SnacksController {
     public void insert(@RequestBody Snack s) {
         s.insert();
     }
+    @ApiOperation(value = "更新", notes = "json格式post传给我，字段名需要和我相同")
+    @PostMapping("/update")
+    public void update(@RequestBody Snack s) {
+        s.update(new QueryWrapper<>(s));
+    }
 }

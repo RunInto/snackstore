@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.store.snacks.SnacksApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.631 s <<< FAILURE! - in com.store.snacks.SnacksApplicationTests
+contextLoads(com.store.snacks.SnacksApplicationTests)  Time elapsed: 0.726 s  <<< ERROR!
+org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error updating database.  Cause: java.sql.SQLException: Field 'categcode' doesn't have a default value
+### The error may exist in com/store/snacks/mapper/CategoryMapper.java (best guess)
+### The error may involve com.store.snacks.mapper.CategoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO Category  ( id )  VALUES  ( ? )
+### Cause: java.sql.SQLException: Field 'categcode' doesn't have a default value
+	at com.store.snacks.SnacksApplicationTests.contextLoads(SnacksApplicationTests.java:17)
+Caused by: java.sql.SQLException: Field 'categcode' doesn't have a default value
+	at com.store.snacks.SnacksApplicationTests.contextLoads(SnacksApplicationTests.java:17)
+

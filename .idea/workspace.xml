@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88473a8b-8637-4f40-80a0-d99a161967e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/snacks/entity/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/snacks/utils/CodeGenerater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/snacks/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/snacks/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/snacks/mapper/MemberMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snacks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/snacks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/store/snacks/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store/snacks/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/store/snacks/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store/snacks/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/store/snacks/controller/SnacksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store/snacks/controller/SnacksController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/store/snacks/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store/snacks/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/store/snacks/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store/snacks/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/store/snacks/entity/Snack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store/snacks/entity/Snack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/store/snacks/mapper/SnackMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store/snacks/mapper/SnackMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/store/snacks/SnacksApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/store/snacks/SnacksApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +44,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -63,14 +56,14 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\snacks\src\main\java\com\store\snacks\config" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SnacksApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.SnacksApplication (1)">
     <configuration name="SnacksApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="snacks" />
       <extension name="coverage">
@@ -130,6 +123,10 @@
       <option name="presentableId" value="Default" />
       <updated>1577615561806</updated>
       <workItem from="1577615566813" duration="9705000" />
+      <workItem from="1577628351315" duration="27000" />
+      <workItem from="1577628388542" duration="49000" />
+      <workItem from="1577712455074" duration="2435000" />
+      <workItem from="1577715143623" duration="1514000" />
     </task>
     <servers />
   </component>
@@ -141,26 +138,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577618457744" />
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1577628180096">
+    <state x="739" y="378" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577713104224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577628180096" />
-    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1577628180096">
+    <state x="739" y="378" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577713104224" />
+    <state width="1877" height="561" key="GridCell.Tab.0.bottom" timestamp="1577716682610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577628180096" />
-    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1577628180096">
+    <state width="1877" height="561" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577716682610" />
+    <state width="1877" height="561" key="GridCell.Tab.0.center" timestamp="1577716682610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577628180096" />
-    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1577628180096">
+    <state width="1877" height="561" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577716682610" />
+    <state width="1877" height="561" key="GridCell.Tab.0.left" timestamp="1577716682610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577628180096" />
+    <state width="1877" height="561" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577716682610" />
+    <state width="1877" height="561" key="GridCell.Tab.0.right" timestamp="1577716682610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="561" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577716682610" />
+    <state width="1877" height="2" key="GridCell.Tab.1.bottom" timestamp="1577716674689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="2" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577716674689" />
+    <state width="1877" height="2" key="GridCell.Tab.1.center" timestamp="1577716674689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="2" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577716674689" />
+    <state width="1877" height="2" key="GridCell.Tab.1.left" timestamp="1577716674689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="2" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577716674689" />
+    <state width="1877" height="2" key="GridCell.Tab.1.right" timestamp="1577716674689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="2" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577716674689" />
     <state x="531" y="182" key="Registry" timestamp="1577619940423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="531" y="182" key="Registry/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577619940423" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1577628377574">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577628377574" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1577626889209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
